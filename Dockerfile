@@ -1,4 +1,4 @@
-FROM golang:1.8.5 as build
+FROM golang:1.11.1 as build
 WORKDIR /go/src/github.com/BurtonR/sqlrest
 
 COPY vendor         vendor
